@@ -1,0 +1,256 @@
+.page-container {
+    display: flex;
+    height: 100vh;
+    overflow: hidden;
+  }
+
+  .content-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+  }
+
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: white;
+    border-bottom: 1px solid #e0e0e0;
+  }
+
+  .title-section {
+    display: flex;
+    align-items: center;
+  }
+
+  .page-title {
+    color: #177245;
+    font-size: 28px;
+    font-weight: bold;
+    margin: 0;
+  }
+
+  .stock-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .stock-label {
+    font-size: 16px;
+    font-weight: 500;
+  }
+
+  .stock-value {
+    color: #177245;
+    font-size: 16px;
+    font-weight: bold;
+  }
+
+  .ml-4 {
+    margin-left: 20px;
+  }
+
+  .user-profile {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .user-name {
+    font-size: 16px;
+    font-weight: bold;
+  }
+
+  .profile-circle {
+    width: 36px;
+    height: 36px;
+    background-color: #ccc;
+    border-radius: 50%;
+  }
+
+  .dashboard-container {
+    padding: 20px;
+    background-color: #e6f9e6;
+    flex: 1;
+  }
+
+  .metrics-row, .features-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+
+  .metric-card, .feature-card {
+    background-color: white;
+    border-radius: 10px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 19%;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+  }
+
+  .metric-title, .feature-title {
+    font-size: 14px;
+    color: #666;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  .metric-value {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .green-value {
+    color: #177245;
+  }
+
+  .vesting-timeline {
+    text-align: center;
+  }
+
+  .timeline-value {
+    font-size: 20px;
+    font-weight: bold;
+    color: #177245;
+  }
+
+  .progress-circle-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+  }
+
+  .circular-chart {
+    width: 100px;
+    height: 100px;
+  }
+
+  .circle-bg {
+    fill: none;
+    stroke: #eee;
+    stroke-width: 3.8;
+  }
+
+  .circle {
+    fill: none;
+    stroke: #177245;
+    stroke-width: 3.8;
+    stroke-linecap: round;
+  }
+
+  .percentage {
+    fill: #177245;
+    font-size: 0.5em;
+    text-anchor: middle;
+    font-weight: bold;
+  }
+
+  .percentage-label {
+    fill: #177245;
+    font-size: 0.3em;
+    text-anchor: middle;
+  }
+
+  .tax-calculator {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+  .tax-select {
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+  }
+
+  .calculate-btn {
+    background-color: #177245;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 15px;
+    cursor: pointer;
+    font-weight: 500;
+  }
+
+  /* Footer styles matching Vest component structure */
+  .footer-nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: #177245;
+    color: white;
+    padding: 30px 20px;
+  }
+
+  .footer-section {
+    flex: 1;
+    padding: 0 15px;
+  }
+
+  .footer-section h3 {
+    font-size: 18px;
+    margin-bottom: 15px;
+    color: white;
+  }
+
+  .footer-section ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .footer-section li {
+    font-size: 14px;
+    margin-bottom: 8px;
+    color: #ccc;
+    cursor: pointer;
+  }
+
+  .footer-section li:hover {
+    color: white;
+  }
+
+  .social-icons {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px 20px;
+    background-color: #177245;
+  }
+
+  .icon {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: white;
+    color: #177245;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+    font-weight: bold;
+    font-size: 12px;
+  }
+
+  .footer {
+    background-color: #177245;
+    color: white;
+    border-top: 1px solid rgba(255,255,255,0.1);
+  }
+
+  .copyright {
+    text-align: center;
+    padding: 10px;
+    font-size: 14px;
+    color: #eee;
+  }
